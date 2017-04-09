@@ -2,6 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Oswald', sans-serif; }
 
+#headerALL .foot {
+  margin-top: 50%; }
 #headerALL .responsivePanel {
   width: 100vw;
   height: 55px;
@@ -142,6 +144,7 @@ body {
 #headerALL .boolshit {
   height: 800px; }
 #headerALL .foot {
+  margin-top: 50%;
   padding-top: 66px;
   background: #038EAF; }
   #headerALL .foot .socialF {
@@ -279,69 +282,67 @@ body {
     color: gray;
     text-align: justify; }
 
-#middle {
-  height: 160vh; }
-  #middle .divider {
-    width: 80px !important;
-    height: 4px;
+#middle .divider {
+  width: 80px !important;
+  height: 4px;
+  margin: 0;
+  margin-top: 35px;
+  background: #F57E57; }
+#middle h3 {
+  padding: 0;
+  line-height: 1.13043;
+  font-size: 46px; }
+#middle .col3 {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center; }
+#middle .imgClass {
+  margin-top: 60px; }
+#middle .scott {
+  display: flex; }
+  #middle .scott h2 {
     margin: 0;
-    margin-top: 35px;
-    background: #F57E57; }
-  #middle h3 {
     padding: 0;
-    line-height: 1.13043;
-    font-size: 46px; }
-  #middle .col3 {
-    margin-top: 55px;
-    display: flex;
-    justify-content: center; }
-  #middle .imgClass {
-    margin-top: 60px; }
-  #middle .scott {
-    display: flex; }
-    #middle .scott h2 {
-      margin: 0;
-      padding: 0;
-      line-height: 1.27273;
-      font-size: 22px;
-      font-weight: 700;
-      color: #18afd3; }
-    #middle .scott p {
-      line-height: 1.27273;
-      font-size: 15px; }
-  #middle .scottD {
+    line-height: 1.27273;
+    font-size: 22px;
+    font-weight: 700;
+    color: #18afd3; }
+  #middle .scott p {
+    line-height: 1.27273;
+    font-size: 15px; }
+#middle .scottD {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #868686;
+  text-align: left; }
+#middle .rilley {
+  margin-top: 40px; }
+#middle .teamDoc {
+  margin-top: 10%; }
+#middle .docPhone {
+  margin-left: 15px; }
+  #middle .docPhone p:nth-child(3) {
     margin-top: 15px;
-    margin-bottom: 10px;
-    line-height: 24px;
-    font-size: 15px;
-    color: #868686;
-    text-align: left; }
-  #middle .rilley {
-    margin-top: 40px; }
-  #middle .teamDoc {
-    margin-top: 10%; }
-  #middle .docPhone {
-    margin-left: 15px; }
-    #middle .docPhone p:nth-child(3) {
-      margin-top: 15px;
-      font-size: 18px; }
-    #middle .docPhone p i {
-      font-size: 26px;
-      color: #18afd3;
-      margin-right: 5px; }
-  #middle .btn-primary.btn {
-    margin-top: 25px;
-    border-radius: 23px;
-    color: #fff;
-    background-color: #f57e57;
-    border-color: #f57e57;
-    padding: 7px 35px;
-    font-size: 16px;
-    line-height: 28px;
-    text-transform: uppercase; }
-  #middle .btn-primary.btn:hover {
-    background: #55BBEB;
-    transition: 1s ease; }
+    font-size: 18px; }
+  #middle .docPhone p i {
+    font-size: 26px;
+    color: #18afd3;
+    margin-right: 5px; }
+#middle .btn-primary.btn {
+  margin-top: 25px;
+  border-radius: 23px;
+  color: #fff;
+  background-color: #f57e57;
+  border-color: #f57e57;
+  padding: 7px 35px;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: uppercase; }
+#middle .btn-primary.btn:hover {
+  background: #55BBEB;
+  transition: 1s ease; }
 
 .yazii li {
   margin-top: 7px;
@@ -444,5 +445,8 @@ body {
 
   .rilley .rilley5 {
     margin-bottom: 20px; } }
+@media (min-width: 1000px) and (max-width: 1350px) {
+  #headerALL .foot {
+    margin-top: 75%; } }
 
 /*# sourceMappingURL=style.css.map */
